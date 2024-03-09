@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(37, 37, 37);
+}
+
+.nav-bar-box {
+    width: 100%;
+    height: fit-content;
+    padding: 10px 10px;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 29, 29);
+    color: whitesmoke;
+    user-select: none;
+    text-align: center;
+}
+
+.display-OTP-Box {
+    width: 100%;
+    height: fit-content;
+    padding: 10px 10px;
+    background-color: rgb(226, 193, 4);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    align-items: center;
+
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.display-value {
+    width: 90%;
+    height: 100%;
+    user-select: none;
+}
+
+.X-Btn {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(48, 48, 48);
+    color: whitesmoke;
+    font-size: 27px;
+    padding: 4px 4px;
+    cursor: pointer;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.X-Btn:hover {
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    height: fit-content;
+    color: whitesmoke;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.Get-Otp {
+    width: fit-content;
+    height: fit-content;
+    padding: 17px 17px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: absolute;
+
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.OTP-Gen {
+    width: fit-content;
+    height: 90%;
+    padding: 10px 17px;
+    font-weight: 700;
+    margin-top: 17px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.Verify-Box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.OTP_Timer {
+    margin-top: 7px;
+}
+
+.Enter-value-box {
+    width: 100%;
+    height: fit-content;
+    padding: 7px;
+    display: flex;
+    gap: 7px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input {
+    width: 250px;
+    height: 50px;
+    font-size: 40px;
+    background-color: rgb(37, 37, 37);
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    display: flex;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.Success-box {
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.Btn_Go_Back {
+    padding: 10px 17px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.Not-Verify {
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.active {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+}
+
+.goBack {
+    background-color: rgb(235, 192, 1);
+    cursor: pointer;
+}
+
+.goBack:hover {
+    background-color: rgb(201, 164, 2);
+    cursor: pointer;
+}
+
+#Submit_OTP {
+    background-color: rgb(235, 192, 1);
+    cursor: pointer;
+}
+
+#Submit_OTP:hover {
+    background-color: rgb(201, 164, 2);
+    cursor: pointer;
+}
+
+#Otp-gen-btn {
+    background-color: rgb(235, 192, 1);
+    cursor: pointer;
+}
+
+#Otp-gen-btn:hover {
+    background-color: rgb(201, 164, 2);
+    cursor: pointer;
+}

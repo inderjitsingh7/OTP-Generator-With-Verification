@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Generator With OTP Verification</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="nav-bar-box">
+            OTP Generator & Verification
+        </div>
+
+        <!-- display-OTP-Box -->
+        <div class="display-OTP-Box">
+            <div class="display-value">
+                <p>Please Verify The OTP</p>
+                <h4>OTP : <span class="otp-value"> </span></h4>
+            </div>
+            <div class="X-Btn">
+                <i class="ri-close-line"></i>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <!-- Get-Otp -->
+            <div class="Get-Otp">
+                <h3>Click Btn to Generator OTP</h3>
+                <button class="OTP-Gen" id="Otp-gen-btn">Generator OTP</button>
+            </div>
+
+            <!-- Verify-Box -->
+            <div class="Verify-Box">
+                <h2>OTP Verification</h2>
+                <p>Please Type The Verification Code</p>
+                <p class="OTP_Timer">The OTP Will Expire in : <span class="setTimer"> </span> </p>
+
+                <div class="Enter-value-box">
+                    <input type="text" class="input" placeholder="XXXX">
+                    <button class="OTP-Gen" id="Submit_OTP">Submit OTP</button>
+                </div>
+            </div>
+
+            <!-- Success -->
+            <div class="Success-box">
+                <img src="/IMG/verified.png" alt="" class="img-v">
+                <h2>OTP IS Verified</h2>
+                <br>
+                <button class="Btn_Go_Back goBack">Go Back</button>
+            </div>
+
+            <!-- Not-Verify -->
+            <div class="Not-Verify">
+                <img src="/IMG/not-verify.png" alt="" class="img-v">
+                <h2>OTP IS Not Verified</h2>
+                <br>
+                <button class="Btn_Go_Back goBack">Go Back</button>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Link JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
